@@ -1,10 +1,10 @@
 package com.company;
 
 public class Employee {
-    private double tariffPerHour = 5.5;
+    private final double tariffPerHour = 5.5;
     public int hours;
 
-    public double getSallary(){
+    public double getSallary() {
         return this.tariffPerHour * hours;
     }
 

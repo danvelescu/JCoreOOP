@@ -1,9 +1,10 @@
 package com.company;
 
-public class Rectangle extends GraphicObject{
-    private float width,height;
+public class Rectangle extends GraphicObject {
+    private final float width;
+    private final float height;
 
-    Rectangle(float x, float y){
+    Rectangle(float x, float y) {
         this.width = x;
         this.height = y;
     }
@@ -18,8 +19,8 @@ public class Rectangle extends GraphicObject{
 
     @Override
     float calculate_area() {
-        float a = width*height;
-        System.out.println("Your area is "+a);
+        float a = width * height;
+        System.out.println("Your area is " + a);
         return a;
     }
 }
