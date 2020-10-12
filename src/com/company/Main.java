@@ -18,8 +18,8 @@ public class Main {
 
 		///8
 		Rectangle r1 = new Rectangle(10,20);
-	 	r1.calculate_area(r1);
-		c1.calculate_area(c1);
+	 	r1.calculate_area();
+		c1.calculate_area();
 
 
     }

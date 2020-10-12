@@ -15,4 +15,11 @@ public class Rectangle extends GraphicObject{
     public float getHeight() {
         return height;
     }
+
+    @Override
+    float calculate_area() {
+        float a = width*height;
+        System.out.println("Your area is "+a);
+        return a;
+    }
 }

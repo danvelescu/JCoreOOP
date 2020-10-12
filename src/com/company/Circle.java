@@ -5,10 +5,10 @@ public class Circle extends GraphicObject{
     public Circle(float radius){
         this.radius = radius;
     }
-    public double calculate_area(){
+    public float calculate_area(){
         double a = Math.PI * Math.exp(radius);
         System.out.println("area = " + a);
-        return a;
+        return (float)a;
     }
 
     public float claculate_perimeter(){
