@@ -4,7 +4,7 @@ public class SavingsAccount {
     private static float annualInterestRate;
     private float saveBalance;
 
-    SavingsAccount(float saveBalance){
+    SavingsAccount(float saveBalance) {
         this.saveBalance = saveBalance;
     }
 
@@ -23,5 +23,6 @@ public class SavingsAccount {
     public float getInterest() {
         return annualInterestRate;
     }
-
 }
+
+
