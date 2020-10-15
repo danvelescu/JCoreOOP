@@ -7,16 +7,16 @@ public class Main {
 
         saver1.setAnnualInterestRate(4);
 
-        saver1.calculateMonthlyInterest(saver1);
-        saver1.calculateMonthlyInterest(saver2);
+        Save.calculateMonthlyInterest(saver1);
+        Save.calculateMonthlyInterest(saver2);
 
         System.out.println(saver1.getSaveBalance());
         System.out.println(saver2.getSaveBalance());
 
         saver1.setAnnualInterestRate(5);
 
-        saver1.calculateMonthlyInterest(saver1);
-        saver1.calculateMonthlyInterest(saver2);
+        Save.calculateMonthlyInterest(saver1);
+        Save.calculateMonthlyInterest(saver2);
 
         System.out.println(saver1.getSaveBalance());
         System.out.println(saver2.getSaveBalance());

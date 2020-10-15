@@ -24,7 +24,4 @@ public class SavingsAccount {
         return annualInterestRate;
     }
 
-    public static void calculateMonthlyInterest(SavingsAccount sv) {
-        sv.saveBalance = (sv.saveBalance*sv.getInterest())/12;
-    }
 }
