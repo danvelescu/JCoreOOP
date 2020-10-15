@@ -1,4 +1,4 @@
-package interfacesImpl;
+package task2;
 
 public class SavingsAccount {
     private static float annualInterestRate;
