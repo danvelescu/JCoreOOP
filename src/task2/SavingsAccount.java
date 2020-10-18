@@ -23,6 +23,10 @@ public class SavingsAccount {
     public float getInterest() {
         return annualInterestRate;
     }
+
+    public void addSaveBalance(Float balance){
+        this.saveBalance = this.saveBalance + balance;
+    }
 }
 
 
